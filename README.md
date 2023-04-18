@@ -13,3 +13,6 @@ The code is pretty straightforward and easy to understand. The `create_instagram
 After you send the request to upload the media ot your IG account, you will receive a media ID for said image in the response. This is important because a second request with that ID and your access token will be sent to the GRAPH API request to actually _publish_ the image on your account. The way I have the code set up, it will only publish the media _if and only if_ there was a successful upload of the image and a proper ID was returned in the response.
 
 The `create_carousel` function, which allows you to upload and publish multiple images for a carousel post works in a similar fashion with a couple of addendums, but doesn't stary far from `create_instagram_post`.
+
+
+This code is open-source and free to use. All I ask is that you give proper credits when using this code.
